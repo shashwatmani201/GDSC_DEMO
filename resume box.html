@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            font-family: italic;
+            box-sizing: border-box;
+        }
+        .mainbox{
+            background-color:aqua;
+            height: 100vh;
+            width: 100%;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content:space-evenly;
+
+        }
+        #profile{
+            height: 100px;
+            width: 100px;
+            background-color: tomato;
+            justify-content: space-evenly;
+            flex-direction: column;
+            border-radius: 50%;
+            /* padding:10px,10px,10px,10px; */
+        }
+           .box{
+            height: 400px;
+            width: 200px;
+            border-radius: 3px;
+            box-shadow:brown 10px 10px;
+            background-color: yellow;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-items: center;
+            /*top: margin 30px; */
+            }
+            .content{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+            }
+            h3{
+                margin-left:20px;
+                justify-content: center;
+            }
+            img{
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+            }
+            .box:hover{
+                transition-property: all;
+                transition-duration: 200ms;
+                transform: rotateY(45deg);
+            }
+        
+    </style>
+</head>
+<body>
+   
+    <div class="mainbox">
+        <div class="box">
+            <div id="profile"><img src="RDJ.jpeg" alt="image"></div>
+            <div class="content">
+            <h3>MR.SMT</h3>
+            <br>
+                <a href="#">INSTAGRAM PROFILE</a>
+                <br>
+               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsum molestias 
+                velit vero praesentium, odio recusandae asperiores quod debitis.
+                 Quasi nam facere ducimus ad atque dolorum officia corrupti nisi accusamus?</p>
+        </div>
+        </div>
+        <div class="box">
+            <div id="profile"><img src="RDJ.jpeg" alt="image"></div> 
+            <div class="content">
+            <h3>ANURAG MANI TRIPAHTI</h3>
+            <br>
+                <a href="#">INSTAGRAM PROFILE</a>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsum molestias 
+                    velit vero praesentium, odio recusandae asperiores quod debitis.
+                     Quasi nam facere ducimus ad atque dolorum officia corrupti nisi accusamus?</p>
+           </div>  
+        </div>
+        <div class="box">
+            <div id="profile"><img src="RDJ.jpeg" alt="image"></div>
+            <div class="content">
+            <h3>PRANJAL MANI TIPATHI </h3>
+            <br>
+                <a href="#">INSTAGRAM PROFILE</a>
+               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsum molestias 
+                    velit vero praesentium, odio recusandae asperiores quod debitis.
+                     Quasi nam facere ducimus ad atque dolorum officia corrupti nisi accusamus?</p>
+            </div>
+         </div>
+    </div>
+</body>
+</html>
